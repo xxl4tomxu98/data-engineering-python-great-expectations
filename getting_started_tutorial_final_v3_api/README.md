@@ -20,7 +20,7 @@ The CSV files in the data directory are yellow taxi trip data that have been dow
 
 * [Data dictionary](https://www1.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf)
 
-We created 10,000 row samples (using the Pandas ``sample`` function) from teh original CSV files for convenience and manually added some breaking changes (0s in the passenger_count column) to demonstrate potential data issues.
+We created 10,000 row samples (using the Pandas ``sample`` function) from the original CSV files for convenience and manually added some breaking changes (0s in the passenger_count column) to demonstrate potential data issues.
 
 In a future version of this tutorial, we might use "naturally occurring" data bugs :)
 
