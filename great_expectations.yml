@@ -1,0 +1,9 @@
+generators:
+      manual:
+        class_name: ManualGenerator
+        assets:
+          titanic:
+            path: /home/tom/ge_tutorials/data/titanic_data.csv
+            reader_method: read_csv
+            reader_options:
+              index_col: 0
